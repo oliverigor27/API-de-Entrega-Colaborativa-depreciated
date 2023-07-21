@@ -20,21 +20,21 @@ A API possui os seguintes endpoints principais:
 
 Tecnologias Utilizadas
 
-    - TypeScript
-    - Node.JS
-    - Prisma
-    - Express
-    - PostgreSQL
-    - Docker
+- TypeScript
+- Node.JS
+- Prisma
+- Express
+- PostgreSQL
+- Docker
 
 Como Executar o Projeto
 
-    - Certifique-se de ter o Node.JS instalado em sua máquina.
-    - Clone este repositório: git clone https://github.com/oliverigor27/API-de-Entrega-Colaborativa.git
-    - Acesse o diretório do projeto: cd entrega-colaborativa-api
-    - Instale as dependências: npm install
-    - Configure as variáveis de ambiente (como banco de dados) no arquivo .env.
-    - Execute o servidor: npm start
+- Certifique-se de ter o Node.JS instalado em sua máquina.
+- Clone este repositório: git clone https://github.com/oliverigor27/API-de-Entrega-Colaborativa.git
+- Acesse o diretório do projeto: cd entrega-colaborativa-api
+- Instale as dependências: npm install
+- Configure as variáveis de ambiente (como banco de dados) no arquivo .env.
+- Execute o servidor: npm start
 
 Documentação da API
 
@@ -43,11 +43,11 @@ Contribuindo
 
 Contribuições são bem-vindas! Se você deseja colaborar com melhorias, correções de bugs ou adicionar novos recursos, siga as etapas abaixo:
 
-    - Faça um fork deste repositório.
-    - Crie uma branch com sua feature ou correção: git checkout -b minha-feature
-    - Commit suas alterações: git commit -m "Minha contribuição: descrição da alteração"
-    - Envie a branch para o seu fork: git push origin minha-feature
-    - Abra um Pull Request para este repositório.
+- Faça um fork deste repositório.
+- Crie uma branch com sua feature ou correção: git checkout -b minha-feature
+- Commit suas alterações: git commit -m "Minha contribuição: descrição da alteração"
+- Envie a branch para o seu fork: git push origin minha-feature
+- Abra um Pull Request para este repositório.
 
 ## Suporte
 
