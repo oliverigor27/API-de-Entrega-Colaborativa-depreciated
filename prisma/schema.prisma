@@ -10,11 +10,49 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model User {
-  id       String @id     @default(uuid())
-  name     String
-  email    String @unique
-  password String
-  adress   String
+model customer {
+  customer_id       String @id     @default(uuid())
+  customer_name     String
+  customer_email    String @unique
+  customer_password String
+  customer_adress   String
+  customer_city     String
+  customer_state    String
+
+  // Relations 1:∞
+  order      Order[]
+
+  @@map("customers")
+}
+
+model Order {
+  order_id          String     @id @default(uuid())
+  order_procut      String 
+  order_release     DateTime
+  order_deliver     DateTime
+  order_destination String
+
+  // Relations 1:∞
+  customer              customer       @relation(references: [customer_id], fields: [customerId])
+  deliver           Deliverman @relation(references: [deliverman_id], fields: [delivermanId])
   
+  delivermanId String
+  customerId String
+
+  @@map("orders")
+}
+
+model Deliverman {
+  deliverman_id       String  @id          @default(uuid())
+  deliverman_name     String
+  deliverman_email    String @unique
+  deliverman_password String
+  deliverman_adress   String
+  deliverman_city     String
+  deliverman_state    String
+
+  // Relations 1:∞
+  order Order[]
+
+  @@map("delivermans")
 }
