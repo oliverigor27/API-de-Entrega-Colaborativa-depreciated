@@ -4,7 +4,6 @@
     <img align="center" src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge">
     <img align="center" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
     <img align="center" src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white">
-    <img align="center" src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white">
 </div>
 <br />
 A Entrega Colaborativa API é uma plataforma que permite a conexão entre indivíduos e empresas para facilitar a entrega de produtos e serviços, por meio de uma rede de entregadores colaborativos. Esta API foi desenvolvida com TypeScript, Node.JS, PostgreSQL e utiliza o padrão MVC.
