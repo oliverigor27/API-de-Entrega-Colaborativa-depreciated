@@ -12,4 +12,4 @@ route.get("/teste", (req, res) => {
     res.send("Rota teste funcionando!");
 });
 
-export default route;
+export default route
