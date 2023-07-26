@@ -1,15 +1,8 @@
 import { Router } from 'express';
+import CustomerController from './controller/CustomerController';
 
 const route = Router();
 
-route.get("/", (req, res) => {
-    res.json({
-        message: "Hello World!"
-    })
-});
-
-route.get("/teste", (req, res) => {
-    res.send("Rota teste funcionando!");
-});
+route.post("/create-costumer", CustomerController.CreateCustomer)
 
 export default route
